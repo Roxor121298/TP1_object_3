@@ -1,5 +1,4 @@
-app.css 
-
+app.css
 
 import
 
@@ -10,7 +9,6 @@ import
 
 
 .nom {
-  font-family: "Bruno Ace SC", sans-serif;
   background-color: green;
 	color: white;
 	padding: 20px;
@@ -19,7 +17,6 @@ import
 
 
 header {
-  font-family: "Bruno Ace SC", sans-serif;
 	background-color: green;
 	color: white;
 	padding: 20px;
@@ -27,7 +24,6 @@ header {
 }
 
 body {
-  font-family: "Bruno Ace SC", sans-serif;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
