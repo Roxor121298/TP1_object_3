@@ -1,0 +1,118 @@
+
+
+app.css 
+
+/* =======
+* Réalisé par : [Votre nom]
+* Version : 
+* Date : */
+
+
+header {
+	background-color: green;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .header, .footer {
+      margin: 5px 10px 15px 20px;
+  }
+  
+  .body {
+      background-color: #eee;
+  }
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+section {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	margin: 20px;
+	padding: 20px;
+	width: 300px;
+}
+
+section h2 {
+	color: green;
+	margin-top: 0;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: green;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+html {
+    font-size: 16px;
+  }
+  
+  #css-zen-garden {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .page-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .intro {
+    background-color: green;
+    color: white;
+    padding: 20px;
+  }
+  
+  #zen-intro {
+    margin-top: 50px;
+  }
+  
+  #zen-summary {
+    border: 2px solid green;
+    padding: 20px;
+  }
+  
+  .preamble {
+    font-style: italic;
+  }
+  
+  @media (min-width: 768px) {
+    .page-wrapper {
+      flex-direction: row;
+    }
+    
+    #zen-summary {
+      margin-left: 20px;
+    }
+  }
+  
