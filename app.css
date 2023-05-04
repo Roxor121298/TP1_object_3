@@ -1,14 +1,25 @@
-
-
 app.css 
 
+
+import
+
 /* =======
-* Réalisé par : [Votre nom]
+* Réalisé par : [Edouard Corriveau Deschamps]
 * Version : 
 * Date : */
 
 
+.nom {
+  font-family: "Bruno Ace SC", sans-serif;
+  background-color: green;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+
 header {
+  font-family: "Bruno Ace SC", sans-serif;
 	background-color: green;
 	color: white;
 	padding: 20px;
@@ -16,6 +27,7 @@ header {
 }
 
 body {
+  font-family: "Bruno Ace SC", sans-serif;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
