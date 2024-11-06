@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#b02184</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+    <color name="basic1">#b02184</color>
+    <color name="basic2">#d39026</color>
+    <color name="basic3">#2ca926</color>
+
+
+    <color name="second1">#196fa6</color>
+    <color name="second2">#a4d6a6</color>
+    <color name="second3">#d20052</color>
+
+
+    <color name="terciaire1">#136ead</color>
+    <color name="terciaire2">#dd3f1c</color>
+    <color name="terciaire3">#f5902f</color>
+
+    <color name="background1">#423b60</color>
+
+
+
+
+
+</resources>
